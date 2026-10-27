@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreenCorner — Колекція рослин</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>🌱 GreenCorner</h1>
+        </header>
+
+        <main class="card-container">
+            <h2>Список рослин</h2>
+            <div id="plants-list" class="plants-grid">
+                <p class="status-message">Завантаження даних з API...</p>
+            </div>
+        </main>
+    </div>
+
+    <div id="plant-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button" id="close-modal">&times;</span>
+            <div id="modal-body"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
